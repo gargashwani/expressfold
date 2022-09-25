@@ -1,0 +1,23 @@
+{
+  "name": "expressfold",
+  "version": "1.1.0",
+  "description": "expressfold",
+  "main": "library/index.js",
+  "bin": {
+    "expressfold": "library/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gargashwani/expressfold.git"
+  },
+  "keywords": [
+    "expressfold",
+    "expressfold library"
+  ],
+  "author": "AshwaniGarg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gargashwani/expressfold/issues"
+  },
+  "homepage": "https://github.com/gargashwani/expressfold#readme"
+}
