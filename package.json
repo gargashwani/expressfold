@@ -1,10 +1,13 @@
 {
   "name": "expressfold",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "expressfold",
   "main": "library/index.js",
   "bin": {
     "expressfold": "library/index.js"
+  },
+  "scripts": {
+    "expressfold": "node library/index.js"
   },
   "repository": {
     "type": "git",

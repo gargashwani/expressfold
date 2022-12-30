@@ -23,6 +23,9 @@ if (process.argv[2] != null && process.argv[3] != null && process.argv[2] == 'ma
 else if(process.argv[2] != null  && process.argv[2] == 'make:auth' ){
    require('./makeAuthController');
 }
+else if(process.argv[2] != null  && (process.argv[2] == 'db:seed' || process.argv[2] == 'd:s' )){
+   console.log('db seed called');
+}
 else if(process.argv[2] != null  && (process.argv[2] == 'route:list' || process.argv[2] == 'r:l' )){
    console.log('route list called');
 }
